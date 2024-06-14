@@ -7,12 +7,12 @@
     lb x29, 0(x0)
     lb x30, 0(x0)
     lb x31, 0(x0)
-	lb x9, 0(x0)
-	lb x18, 0(x0)
-	lb x19, 0(x0)
-	lb x20, 0(x0)
-	lb x21, 0(x0)
-	lb x22, 0(x0)
+    lb x9, 0(x0)
+    lb x18, 0(x0)
+    lb x19, 0(x0)
+    lb x20, 0(x0)
+    lb x21, 0(x0)
+    lb x22, 0(x0)
 
     addi x5, x5, 327
     addi x6, x6, 429
@@ -20,14 +20,13 @@
     addi x28, x28, 634
     addi x29, x29, 736
 
-	addi x9, x9, 1
-	addi x18, x18, 2
-	addi x19, x19, 4
-	addi x20, x20, 8
-	addi x21, x21, 16
-	addi x22, x22, 32
+    addi x9, x9, 1
+    addi x18, x18, 2
+    addi x19, x19, 4
+    addi x20, x20, 8
+    addi x21, x21, 16
+    addi x22, x22, 32
 
-loop:
     lh x11, 1031(x0)
 
     blt x11, x5, yl 
