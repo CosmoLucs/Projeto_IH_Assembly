@@ -1,0 +1,9 @@
+Calculando o cpi no modo cycle-accurate do compsim:
+
+Total de ciclos de clock (clock event no compsim): 152
+Numero de instruções executadas (pior caso): 37
+
+CPI: 152 / 37
+CPI: 4,108
+
+OBS: o pior caso é quando escreve 0111 ou 0110 no tecladon
