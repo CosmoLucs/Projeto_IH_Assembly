@@ -31,5 +31,7 @@ que é igual a
 y = (213,3 x 75) / 16
 y = 999, 84
 
-como o compsim não aceita um clock com frequência de 999,84Hz, arredondamos para 1000Hz como a nova frequência, e sim, no compsim o programa executa a 1000Hz
+como o compsim não aceita um clock com frequência de 999,84Hz, 
+arredondamos para 1000Hz como a nova frequência, e sim, no 
+compsim o programa executa a 1000Hz.
 
