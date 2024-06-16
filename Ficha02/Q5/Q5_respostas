@@ -1,0 +1,35 @@
+Tempo de execução: 1,49 segundos
+---------------------------------------
+Número de instruções (pior caso): 36
+Numero de ciclos de clock (clock event no compsim):149
+
+CPI: 149 / 36
+CPI: 4,138
+-----------------------------------------------------
+calculando taxa de leitura:
+
+16 bytes lidos
+75 clocks de leitura
+100 hz
+
+tempo de leitura: 75 / 100
+tempo de leitura: 0,75 segundos
+
+taxa de leitura: 16 / 0,75
+taxa de leitura: 21,33 bytes por segundo
+----------------------------------------------------------
+frequência do clock com um speed-up de 10x:
+
+o tempo de leitura novo é: 75 / y s
+
+Com o speed-up, a taxa de leitura é 312,3 bytes por segundo 
+
+então, temos:
+
+312,3 = 16 / (75 / y) 
+que é igual a 
+y = (213,3 x 75) / 16
+y = 999, 84
+
+como o compsim não aceita um clock com frequência de 999,84Hz, arredondamos para 1000Hz como a nova frequência, e sim, no compsim o programa executa a 1000Hz
+
